@@ -1,0 +1,381 @@
+
+============================================================
+Age recode with <1 year olds and 90+
+============================================================
+Age recode with <1 year olds and 90+
+60-64 years    3633
+65-69 years    3575
+55-59 years    3453
+50-54 years    2952
+70-74 years    2853
+75-79 years    2121
+45-49 years    2061
+80-84 years    1476
+40-44 years    1239
+85-89 years     808
+35-39 years     651
+30-34 years     408
+25-29 years     268
+90+ years       230
+20-24 years     127
+15-19 years      52
+10-14 years       5
+Name: count, dtype: int64
+
+
+============================================================
+Race recode (W, B, AI, API)
+============================================================
+Race recode (W, B, AI, API)
+White                            21370
+Asian or Pacific Islander         2326
+Black                             1931
+American Indian/Alaska Native      201
+Unknown                             84
+Name: count, dtype: int64
+
+
+============================================================
+Marital status at diagnosis
+============================================================
+Marital status at diagnosis
+Married (including common law)    13325
+Single (never married)             4886
+Widowed                            3498
+Divorced                           2711
+Unknown                            1103
+Separated                           277
+Unmarried or Domestic Partner       112
+Name: count, dtype: int64
+
+
+============================================================
+Grade Recode (thru 2017)
+============================================================
+Grade Recode (thru 2017)
+Poorly differentiated; Grade III          7558
+Undifferentiated; anaplastic; Grade IV    6425
+Unknown                                   6070
+Moderately differentiated; Grade II       3277
+Well differentiated; Grade I              2582
+Name: count, dtype: int64
+
+
+============================================================
+Histologic Type ICD-O-3
+============================================================
+Histologic Type ICD-O-3
+8441    13333
+8460     5421
+8380     3956
+8480     1742
+8461      787
+8470      430
+8570       51
+8560       34
+9014       34
+8481       33
+8482       26
+8471       25
+8381       12
+9015        9
+8472        6
+8382        6
+8462        5
+8463        2
+Name: count, dtype: int64
+
+
+============================================================
+Laterality
+============================================================
+Laterality
+Bilateral, single primary                                10033
+Right - origin of primary                                 6652
+Left - origin of primary                                  6426
+Paired site, but no information concerning laterality     2610
+Only one side - side unspecified                           191
+Name: count, dtype: int64
+
+
+============================================================
+Chemotherapy recode (yes, no/unk)
+============================================================
+Chemotherapy recode (yes, no/unk)
+Yes           19562
+No/Unknown     6350
+Name: count, dtype: int64
+
+
+============================================================
+Survival months
+============================================================
+Survival months
+0000       668
+0001       533
+0002       381
+0003       316
+0004       292
+          ... 
+0154        67
+0166        64
+0161        60
+0157        54
+Unknown     20
+Name: count, Length: 169, dtype: int64
+
+
+============================================================
+Vital status recode (study cutoff used)
+============================================================
+Vital status recode (study cutoff used)
+Dead     16253
+Alive     9659
+Name: count, dtype: int64
+
+
+============================================================
+Rural-Urban Continuum Code
+============================================================
+Rural-Urban Continuum Code
+Counties in metropolitan areas ge 1 million pop                 16113
+Counties in metropolitan areas of 250,000 to 1 million pop       5316
+Counties in metropolitan areas of lt 250 thousand pop            1753
+Nonmetropolitan counties adjacent to a metropolitan area         1575
+Nonmetropolitan counties not adjacent to a metropolitan area     1132
+Unknown/missing/no match (Alaska or Hawaii - Entire State)         19
+Unknown/missing/no match/Not 1990-2024                              4
+Name: count, dtype: int64
+
+
+============================================================
+TNM 7/CS v0204+ Schema (thru 2017)
+============================================================
+TNM 7/CS v0204+ Schema (thru 2017)
+Ovary    25912
+Name: count, dtype: int64
+
+
+============================================================
+SEER Combined Mets at DX-bone (2010+)
+============================================================
+SEER Combined Mets at DX-bone (2010+)
+No         25138
+Unknown      596
+Yes          156
+NaN           22
+Name: count, dtype: int64
+
+
+============================================================
+Derived SEER Combined T (2016-2017)
+============================================================
+Derived SEER Combined T (2016-2017)
+Blank(s)          19586
+p3C                1463
+c3C                 960
+p1A                 777
+p1C                 657
+cX                  583
+p3B                 322
+p2A                 218
+p2B                 215
+p2C                 208
+c3                  187
+p3A                 179
+p3                  110
+c3B                 100
+p1B                  64
+c2C                  55
+c3A                  40
+c2B                  28
+p1                   27
+pX                   20
+c1C                  17
+Not applicable       16
+c1A                  15
+p2                   15
+c0                   15
+c1                   12
+c2                   10
+c2A                   7
+c1B                   4
+p0                    2
+Name: count, dtype: int64
+
+
+============================================================
+Derived SEER Combined N (2016-2017)
+============================================================
+Derived SEER Combined N (2016-2017)
+Blank(s)          19586
+c0                 2223
+p0                 1798
+p1                  825
+cX                  597
+c1                  581
+pX                  286
+Not applicable       16
+Name: count, dtype: int64
+
+
+============================================================
+SEER Combined Mets at DX-brain (2010+)
+============================================================
+SEER Combined Mets at DX-brain (2010+)
+No         25255
+Unknown      605
+Yes           29
+NaN           23
+Name: count, dtype: int64
+
+
+============================================================
+SEER Combined Mets at DX-liver (2010+)
+============================================================
+SEER Combined Mets at DX-liver (2010+)
+No         23911
+Yes         1395
+Unknown      584
+NaN           22
+Name: count, dtype: int64
+
+
+============================================================
+SEER Combined Mets at DX-lung (2010+)
+============================================================
+SEER Combined Mets at DX-lung (2010+)
+No         24121
+Yes         1152
+Unknown      616
+NaN           23
+Name: count, dtype: int64
+
+
+============================================================
+RX Summ--Surg Prim Site (1998-2022)
+============================================================
+RX Summ--Surg Prim Site (1998-2022)
+60    5814
+57    5809
+61    4604
+0     3069
+52    2303
+56    1094
+51     653
+36     517
+63     374
+50     338
+72     321
+37     204
+55     168
+62     162
+90     110
+27      89
+70      58
+25      45
+35      39
+73      32
+28      31
+99      26
+71      18
+26      15
+80       9
+74       7
+17       3
+Name: count, dtype: int64
+
+
+============================================================
+Derived AJCC T, 7th ed (2010-2015)
+============================================================
+Derived AJCC T, 7th ed (2010-2015)
+T3c         6924
+Blank(s)    6458
+T3NOS       2562
+T1a         2475
+T1c         1867
+T3b         1100
+T2c          938
+T2b          911
+TX           850
+T3a          641
+T2a          612
+T1b          259
+T2NOS        127
+T1NOS        107
+T0            81
+Name: count, dtype: int64
+
+
+============================================================
+Derived AJCC N, 7th ed (2010-2015)
+============================================================
+Derived AJCC N, 7th ed (2010-2015)
+N0          13517
+Blank(s)     6458
+N1           4389
+NX           1548
+Name: count, dtype: int64
+
+
+============================================================
+T_stage_raw
+============================================================
+T_stage_raw
+T3c               6924
+T3NOS             2562
+T1a               2475
+T1c               1867
+p3C               1463
+T3b               1100
+c3C                960
+T2c                938
+T2b                911
+TX                 850
+p1A                777
+p1C                657
+T3a                641
+T2a                612
+cX                 583
+p3B                322
+T1b                259
+p2A                218
+p2B                215
+p2C                208
+c3                 187
+p3A                179
+Unknown            132
+T2NOS              127
+p3                 110
+T1NOS              107
+c3B                100
+T0                  81
+p1B                 64
+c2C                 55
+c3A                 40
+c2B                 28
+p1                  27
+pX                  20
+c1C                 17
+Not applicable      16
+c1A                 15
+p2                  15
+c0                  15
+c1                  12
+c2                  10
+c2A                  7
+c1B                  4
+p0                   2
+Name: count, dtype: int64
+
+
+============================================================
+T_stage
+============================================================
+T_stage
+T3         14588
+T1-T2       9706
+Unknown     1618
+Name: count, dtype: int64
+
