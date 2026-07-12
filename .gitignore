@@ -1,4 +1,16 @@
+cox_env/
+.venv/
+.venv-1/
+
+__pycache__/
+*.pyc
+
+.vscode/
+
 *.pt
 *.pth
 *.pkl
 *.joblib
+
+*.keras
+*.h5
